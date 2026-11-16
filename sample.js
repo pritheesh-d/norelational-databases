@@ -102,6 +102,7 @@ async function main() {
     const allBooks = await books.find().toArray();
     console.log("--- All Books ---");
     allBooks.forEach(book => console.log(book.title));
+    
 
   // ----------------------------------------------------------
   // TODO 5 - findOne with dot notation
